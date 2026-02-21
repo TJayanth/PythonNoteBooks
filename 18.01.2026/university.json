@@ -1,0 +1,16 @@
+{
+    "faculties": {
+        "science": {
+            "departments": {
+                "physics": {
+                    "professors": ["Dr. Bose", "Dr. Raman"],
+                    "courses": {
+                        "Quantum Mechanics": {"instructor": "Dr. Bose", "credits": 4},
+                        "Thermodynamics": {"instructor": "Dr. Raman", "credits": 3}
+                    },
+                    "students": ["Aarav", "Ishita", "Neha"]
+                }
+            }
+        }
+    }
+}
