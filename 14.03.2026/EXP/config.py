@@ -1,0 +1,3 @@
+APP_NAME = "Calculator App"
+VERSION = "1.0"
+AUTHOR = "GENAI BATCH"
