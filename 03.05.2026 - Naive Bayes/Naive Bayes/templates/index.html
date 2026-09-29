@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>IMDb Sentiment Classifier</title>
+</head>
+<body>
+
+    <h1>IMDb Sentiment Classifier (Naive Bayes)</h1>
+
+    <form action="/predict" method="POST">
+        <textarea name="review" rows="10" cols="80"
+                  placeholder="Enter movie review here..."></textarea>
+        <br><br>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+    <h2>Prediction: {{ prediction }}</h2>
+    {% endif %}
+
+</body>
+</html>
