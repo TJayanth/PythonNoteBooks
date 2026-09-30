@@ -31,3 +31,5 @@ After covering all cells, add a final section:
 Output everything as clean Markdown so it can be pasted into another LLM chat or study notes for Q&A practice.
 
 Save the result as a `.md` file in the **same folder** as the notebook, using the **same base filename** as the notebook (e.g. `${file}` → same folder/name with a `.md` extension instead of `.ipynb`). If that file already exists, overwrite it with the newly generated content.
+
+You have permission to create and overwrite this file directly — do not just print the Markdown in chat and ask for confirmation before writing it.
